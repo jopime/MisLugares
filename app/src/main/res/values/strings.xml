@@ -7,7 +7,7 @@
     <string name="botonPreferencias">Preferencias</string>
     <string name="botonAcerca">Acerca de</string>
     <string name="botonSalir">Salir</string>
-
+    <string name="botonAlgo">Algo</string>
 
     <string name="action_settings">Settings</string>
 </resources>
