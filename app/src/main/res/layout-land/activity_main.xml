@@ -1,0 +1,52 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    tools:context=".MainActivity"
+    android:onClick="lanzarAcercaDe"
+    android:nestedScrollingEnabled="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="305dp"
+        android:layout_height="88dp"
+        android:text="@string/botonMostrar"
+        android:id="@+id/buttonMostrar"
+        android:textSize="12pt" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:text="@string/botonPreferencias"
+            android:id="@+id/buttonPreferencias"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/botonAcerca"
+            android:id="@+id/buttonAcerca"/>
+        <Button
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+            android:text="@string/botonSalir"
+            android:id="@+id/buttonsalir"
+            android:textStyle="italic"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+</LinearLayout>

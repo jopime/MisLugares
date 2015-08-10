@@ -1,0 +1,52 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="@string/titulo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="168dp"
+        android:textStyle="bold|italic"
+        android:textSize="15pt"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="305dp"
+        android:layout_height="88dp"
+        android:text="@string/botonMostrar"
+        android:id="@+id/buttonMostrar"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="12pt"
+        android:onClick="lanzarMisLugares" />
+    <Button
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="@string/botonPreferencias"
+        android:id="@+id/buttonPreferencias"
+        android:onClick="lanzarPreferencias" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botonAcerca"
+        android:id="@+id/buttonAcerca"
+        android:onClick="lanzarAcercaDe" />
+    <Button
+        android:layout_width="137dp"
+        android:layout_height="match_parent"
+        android:text="@string/botonSalir"
+        android:id="@+id/buttonsalir"
+        android:textStyle="italic"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
